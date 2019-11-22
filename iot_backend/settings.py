@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # aplikasi tambahan
     'detektor_suhu',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [

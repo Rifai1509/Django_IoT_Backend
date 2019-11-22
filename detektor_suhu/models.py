@@ -5,5 +5,5 @@ class stats(models.Model):
     suhu = models.fields.FloatField()
     humidity = models.fields.FloatField()
 
-    def _str_(self):
+    def __str__(self):
         return f'Temp = {self.suhu} dan humidity = {self.humidity}'
